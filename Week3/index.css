@@ -1,0 +1,675 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: whitesmoke; */
+}
+
+body {
+    background: whitesmoke;
+}
+
+.section {
+    width: 100%;
+    height: 100vh;
+    background: whitesmoke;
+}
+
+.navbar {
+    /* border-bottom: 0.015px solid gray; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 6%;
+    padding-right: 10%;
+    margin-bottom: 60px;
+    font-family: Manrope;
+    padding-bottom: 4.2px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    box-shadow: 0px 0px 0px 4.5px rgba(0, 0, 0, 0.286);
+}
+
+.navbar img {
+    height: 23px;
+    width: 169.84616088867188px;
+    left: 0px;
+    top: 26px;
+    border-radius: 0px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 2px;
+    font-family: Manrope;
+
+}
+
+.navbar ul li a {
+    display: flex;
+    padding: 6px 18px;
+    color: rgba(99, 99, 99, 1);
+    text-decoration: none;
+    justify-items: center;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar ul li a:hover {
+    background: rgb(153, 243, 167);
+    ;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar .nga a {
+    color: rgba(99, 99, 99, 1);
+    text-decoration: none;
+    font-weight: bold;
+    background: rgba(111, 194, 71, 1);
+    padding: 13.2px 19px;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.navbar .nga a:hover {
+    background: rgb(153, 243, 167);
+    ;
+    padding: 10px;
+    border-radius: 14px;
+}
+
+.part1 {
+    display: flex;
+    flex-direction: column;
+
+    /* align-items: center; */
+}
+
+.part1 h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Manrope;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 87px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 5px;
+
+
+}
+
+.part1 p {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.support {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+    gap: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.support .block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(111, 194, 71, 1);
+    border-radius: 8px;
+    width: 180px;
+    height: 35px;
+    gap: 9px;
+    padding: 24px 20px;
+    margin-right: 25px;
+    /* font-family: Manrope; */
+}
+
+.support .block a {
+    Font-family: Manrope;
+    color: White;
+    Font-style: Bold;
+    Font-size: 16px;
+    text-decoration: none;
+}
+
+.support .block i {
+    position: relative;
+    border: .3px solid white;
+    background: transparent;
+    color: rgb(231, 224, 224);
+    font-size: 11px;
+}
+
+.support .block i.fa {
+    position: absolute;
+    color: black;
+}
+
+
+.support .block:hover {
+    color: #0D0D0D;
+    background: rgba(26, 96, 78, 0.797);
+    transition: .4s ease;
+    cursor: pointer;
+
+}
+
+.blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    border-radius: 8px;
+    width: 180px;
+    height: 35px;
+    gap: 9px;
+    padding: 24px 20px;
+    margin-right: 25px;
+    border: .3px solid rgba(111, 194, 71, 1);
+}
+
+.blocks a {
+    color: #0D0D0D;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Manrope;
+    font-style: Bold;
+    color: rgba(111, 194, 71, 1);
+}
+
+.blocks:hover {
+    background: rgba(26, 96, 78, 0.797);
+    transition: .4s ease;
+    cursor: pointer;
+
+}
+
+.unavailable {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    border-radius: 0px;
+
+
+}
+
+.unavailable img {
+    height: 637px;
+    width: 1260px;
+    top: 305px;
+    margin: 45px 5px;
+    border-radius: 10px;
+    background: whitesmoke;
+    box-shadow: 3px 3px 4px 3px rgb(188, 181, 181);
+
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+    background: whitesmoke;
+}
+
+.second .Role {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.second .Role h2 {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.second .Role p {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.Image {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background: whitesmoke;
+    /* padding: 10px; */
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0px;
+    gap: 35px;
+    padding: 30px;
+
+}
+
+.Image img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 117px;
+    width: 307px;
+    top: 0px;
+    padding: 6px 11px;
+    border-radius: 0px;
+    box-shadow: 3px 3px 4px 3px rgb(188, 181, 181);
+    /* margin: 15px 18px; */
+
+}
+
+.Image img[alt="image1"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image2"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image3"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image4"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image5"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image6"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image7"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image8"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image9"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image10"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image11"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.Image img[alt="image12"]:hover {
+    background: rgb(153, 243, 167);
+    transition: all .40s ease;
+}
+
+.fire {
+
+    /* position: relative; */
+    display: flex;
+    height: 456px;
+    /* align-items: center;
+    justify-content: center; */
+    width: 100%;
+    left: 250px;
+    /* top: 2129px; */
+    /* margin: 10px 30px 30px 60px; */
+    border-radius: 0px;
+    padding: 72px 90px 72px 80px;
+    background: rgba(7, 7, 7, 0.827);
+}
+
+.dark {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dark>div h1 {
+    color: white;
+    font-family: Manrope;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 55px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+
+}
+
+.dark>div p {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(215, 215, 215, 1);
+
+
+}
+
+.flenjo {
+    display: flex;
+    margin-top: 45px;
+    gap: 20rem;
+
+}
+
+.flenjo .Lagos h2 {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 11px;
+
+}
+
+.flenjo .Lagos p {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    /* text-align: left; */
+    color: rgba(215, 215, 215, 1);
+
+}
+
+.flenjo .city h2 {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 11px;
+
+}
+
+.flenjo .city p {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(215, 215, 215, 1);
+
+}
+
+
+.flenjo .brain h2 {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 1);
+    padding-bottom: 11px;
+
+}
+
+
+.flenjo .brain p {
+    font-family: Manrope;
+    font-size: 20px;
+    Font-style: Medium;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    align-items: Left;
+    Vertical-align: Top;
+
+    /* background: rgba(17, 17, 17, 1); */
+
+    /* text-align: left; */
+    color: rgba(215, 215, 215, 1);
+
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    height: 1189px;
+    width: 1810px;
+    left: 0px;
+    /* margin-right: 121px; */
+    /* top: 1585px; */
+    margin-top: 71px;
+    align-items: center;
+    justify-content: center;
+}
+
+.available{
+    display: flex;
+    margin-top: 30px;
+    gap: 105px;
+    border-radius: 0px;
+}
+
+.right {
+    font-family: Manrope;
+    position: relative;
+    /* Here I did top -239 to bring the text Up */
+    top: 37px;
+
+    margin-right: 130px;
+    margin-bottom: 25px;
+
+}
+
+.right .sub>div {
+    margin: 25px 1px;
+}
+
+.right .article1 h3 {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.right .article1 p {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 19px;
+    /*  */
+
+}
+
+.sub .article2 {
+    height: 225px;
+    width: 477px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    padding: 32px;
+    /* color: rgba(255, 255, 255, 1); */
+    padding: 20px 57px;
+}
+
+.sub .article2 h3 {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sub .article2 p {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 6px 0px;
+    letter-spacing: 0.2px;
+
+}
+
+
+.sub .article3 {
+    height: 225px;
+    width: 477px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    padding: 32px;
+    /* color: rgba(255, 255, 255, 1); */
+    padding: 20px 57px;
+}
+
+.sub .article3 h3 {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sub .article3 p {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 6px 0px;
+    letter-spacing: 0.2px;
+}
+
+.sub .article4 {
+    height: 225px;
+    width: 477px;
+    left: 0px;
+    top: 0px;
+    border-radius: 16px;
+    padding: 32px;
+    /* color: rgba(255, 255, 255, 1); */
+    padding: 20px 57px;
+}
+
+.sub .article4 h3 {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.sub .article4 p {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 6px 0px;
+    letter-spacing: 0.2px;
+}
+
+/* .footer .left{
+  
+    
+} */
+
+.footer .left img {
+    height: 936px;
+    width: 731px;
+    left: 574px;
+    top: 0px;
+    /* background: red; */
+    padding: 5px 12px;
+    border-radius: 5px;
+    /* box-shadow: 2px 2px 1px 7px rgba(180, 177, 177, 0.318); */
+
+}
+
+.link {
+    display: flex;
+    height: 75px;
+    width: 278px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: -05px;
+    /* margin-bottom: -90px; */
+    border-radius: 16px;
+    gap: 32px;
+    /* padding: 24px 40px 24px 40px; */
+    background: rgba(111, 194, 71, 1);
+    
+
+}
+
+.link a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    list-style: none;
+    letter-spacing: 0em;
+    text-decoration: none;
+    text-align: left;
+
+}

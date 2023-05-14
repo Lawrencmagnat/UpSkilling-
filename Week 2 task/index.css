@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.At_All {
+    background: whitesmoke;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+
+.common {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 7px;
+    border-bottom: 1px solid black
+}
+
+.common h1 {
+    font-size: 35px;
+    color: rgb(55, 54, 54);
+    margin: 11px;
+    margin-left: -5px;
+    font-family: serif;
+}
+
+.common p {
+    font-size: 16px;
+    margin: -4px;
+    font-family: serif;
+    padding-bottom: 7px;
+    letter-spacing: 1.2px;
+}
+
+.explore {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.explore h1 {
+    font-size: 35px;
+    color: rgb(55, 54, 54);
+    margin-left: 3px;
+    font-family: serif;
+}
+
+.explore ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.explore ul li {
+    font-size: 16px;
+    margin: 1.2px;
+    font-family: serif;
+    padding-bottom: 7px;
+    letter-spacing: 1.2px;
+}
+
+.umuigbo {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 4px;
+}
+
+.umuigbo h1 {
+    font-size: 35px;
+    color: rgb(55, 54, 54);
+    margin: 11px;
+    margin-left: -5px;
+    font-family: serif;
+}
+
+.umuigbo i {
+    font-style: italic;
+    font-size: 18px;
+    font-family: serif;
+    margin-left: -0.4rem;
+    padding-bottom: 15px;
+}
+
+.umuigbo ol {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.umuigbo ol li {
+    font-size: 16px;
+    margin: 1.2px;
+    font-family: serif;
+    padding-bottom: 7px;
+    letter-spacing: 1.2px
+}
+
+.away {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    background: whitesmoke;
+}
+
+.away .img {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cover {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 2px;
+    /* color: rgb(159, 49, 69)  */
+}
+
+.away .img .img1 {
+    display: flex;
+    gap: 6px;
+    margin-left: 15px;
+}
+
+.away .img .img1 p {
+    display: flex;
+    /* position: fixed; */
+    /* left: 11px; */
+    align-items: end;
+    justify-content: flex-end;
+    /* bottom: -13px; */
+}
+
+.away .img .img1 img {
+    width: 450px;
+    height: 450px;
+}
+
+.away .img .img2 {
+    display: flex;
+    gap: 6px;
+    margin-left: 15px;
+}
+
+.away .img .img2 img {
+    width: 750px;
+    height: 450px;
+}
+
+.away .img .img2 p {
+    display: flex;
+    /* position: fixed; */
+    /* left: 11px; */
+    align-items: end;
+    justify-content: flex-end;
+    /* bottom: -13px; */
+}
+
+footer {
+    background: whitesmoke;
+}
+
+.mpiko {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-top: 24px;
+    background: whitesmoke;
+}
+
+.mpiko {
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    gap: 4px;
+}
+
+.mood h1 {
+    font-size: 35px;
+    color: rgb(55, 54, 54);
+    margin-left: 3px;
+    font-family: serif;
+}
+
+.mpiko h1 {
+    font-size: 35px;
+    color: rgb(55, 54, 54);
+    margin-left: 3px;
+    font-family: serif;
+}
+
+.mpiko ul {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+}
+
+.mpiko ul li {
+    font-size: 16px;
+    margin: 1.2px;
+    font-family: serif;
+    padding-bottom: 7px;
+    letter-spacing: 1.2px;
+}
+
+.mpiko ul li i{
+    font-style: italic;
+    font-size: 18px;
+    font-family: serif;
+    /* margin-left: -0.4rem; */
+    padding-bottom: 15px;
+}

@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../build/images"
+		}
+	],
+	"settings": {
+		"inline-bookmarks.view.showVisibleFilesOnly": false,
+		"liveServer.settings.multiRootWorkspaceName": "UpSkill web dev 23"
+	}
+}
